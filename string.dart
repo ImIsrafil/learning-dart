@@ -24,4 +24,27 @@ gfdfhjffgsdhjfgsdhjfgdshgfdggfjksdgfhjs
 dhfjhdgfhjhsdkjfhgghjdshdjgfdhfhfdg
 ''';
   print(someDescription);
+
+  const someMoreDescription = """
+jhfhejkfjjyffdjekufudhfkdfhjhdbfdjkg
+jflkfdhadhfgfjfjfhjfhgdgfdfdfdkfgjdf
+fjhdfhhfhdgdffgdfhfffkdffhghdhfffff
+""";
+  print(someMoreDescription);
+
+  // STRING Convertion
+  // string --> integer
+  const String numberString = '10';
+  var intNumber = int.parse(numberString);
+  print(intNumber);
+  // string --> floating point number
+  var doubleNumber = double.parse(numberString);
+  print(doubleNumber);
+
+  var numberToString = intNumber.toString();
+  print(numberToString);
+  var numberToDuble = intNumber.toDouble();
+  print(numberToDuble);
+  var piAsString = 3.1416.toStringAsFixed(2);
+  print(piAsString);
 }
