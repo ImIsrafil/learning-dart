@@ -43,4 +43,7 @@ void main() {
   print('2022/$month/30');
   month = 7;
   print('2022/$month/30');
+
+  dynamic year = null;
+  print(year);
 }
